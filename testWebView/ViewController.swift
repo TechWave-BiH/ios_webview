@@ -43,7 +43,7 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
         webView.frame = view.bounds;
     }
     
-    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+    /*func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         if navigationAction.navigationType == .linkActivated  {
             if let url = navigationAction.request.url {
                 UIApplication.shared.open(navigationAction.request.url!, options: [:], completionHandler: nil) //UIApplication.shared.open(url)
@@ -55,7 +55,11 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
         } else {
             decisionHandler(.allow)
         }
-    }
+    }*/
+    func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
+        UIApplication.shared.open(navigationAction.request.url!, options: [:], completionHandler: nil)
+        return nil
+      }
 
 
 }
