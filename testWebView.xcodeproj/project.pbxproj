@@ -16,6 +16,7 @@
 		CCC2E29C2981257B00EA2271 /* testWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2E29B2981257B00EA2271 /* testWebViewTests.swift */; };
 		CCC2E2A62981257B00EA2271 /* testWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2E2A52981257B00EA2271 /* testWebViewUITests.swift */; };
 		CCC2E2A82981257B00EA2271 /* testWebViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2E2A72981257B00EA2271 /* testWebViewUITestsLaunchTests.swift */; };
+		CCE664B9298278BC00417BB6 /* tag.html in Resources */ = {isa = PBXBuildFile; fileRef = CCE664B8298278BC00417BB6 /* tag.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CCC2E2A12981257B00EA2271 /* testWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC2E2A52981257B00EA2271 /* testWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testWebViewUITests.swift; sourceTree = "<group>"; };
 		CCC2E2A72981257B00EA2271 /* testWebViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testWebViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCE664B8298278BC00417BB6 /* tag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tag.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CCC2E2832981257900EA2271 /* testWebView */ = {
 			isa = PBXGroup;
 			children = (
+				CCE664B8298278BC00417BB6 /* tag.html */,
 				CCC2E2842981257900EA2271 /* AppDelegate.swift */,
 				CCC2E2862981257900EA2271 /* SceneDelegate.swift */,
 				CCC2E2882981257900EA2271 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 				CCC2E2912981257B00EA2271 /* LaunchScreen.storyboard in Resources */,
 				CCC2E28E2981257B00EA2271 /* Assets.xcassets in Resources */,
 				CCC2E28C2981257900EA2271 /* Main.storyboard in Resources */,
+				CCE664B9298278BC00417BB6 /* tag.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B4C6XQYNT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testWebView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B4C6XQYNT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testWebView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
